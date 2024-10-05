@@ -1,0 +1,163 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #7B68EE;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    background-color: yellow;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+    gap: 200px;
+}
+
+.userdetails {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-details h2 {
+    margin-top: 0;
+}
+
+.voterpic {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.user-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-details table, .user-details th, .user-details td {
+    border: 1px solid #ddd;
+}
+
+.user-details th, .user-details td {
+    padding: 8px;
+    text-align: left;
+}
+
+.voting {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.voting h2 {
+    color: red;
+    margin-top: 0;
+}
+
+.voting form {
+    margin-top: 20px;
+}
+
+.voting form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.voting form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.voting form button:hover {
+    background-color: #575757;
+}
+footer {
+    background-color: #7B68EE;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
